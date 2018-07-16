@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 footer {
   background-color: #f0f0f0;
 }
@@ -17,6 +21,12 @@ header ul, footer ul {
 header ul {
   display: flex;
   justify-content: space-between;
+  width: 250px;
+  margin-left: auto;
+}
+
+header {
+  margin-bottom: 50px;
 }
 
 footer ul {
@@ -28,6 +38,76 @@ footer ul {
 
 footer {
   display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+footer > div {
+  width: 220px;
+}
+
+main {
+  width: 600px;
+  margin: auto;
+}
+
+main > img {
+  margin-bottom: 20px;
+}
+
+main form .input-group {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  
+}
+
+main form .input-group input {
+  padding: 15px 10px;
+  width: 95%;
+  border: 0;
+}
+
+main form .input-group img {
+  vertical-align: middle;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.button-group button:first-child {
+  margin-right: 10px;
+}
+
+.button-group button {
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #999;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.button-group button:hover {
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+.useful-links ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  width: 250px;
+  justify-content: space-evenly;
+}
+
+.useful-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* .pseudo {
